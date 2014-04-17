@@ -1,0 +1,124 @@
+/* 
+    Document   : comun
+    Created on : 22/09/2011, 10:36:58 AM
+    Author     : randrade
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+.msg ul li {padding-left:15px; background:url("../design/ul.gif") 0 4px no-repeat;}
+
+.msg {padding:10px; padding-left:35px;}
+.msg.warning {background:url("../design/ico-warning.gif") 10px 25px no-repeat;}
+.msg.info {background:url("../design/ico-info.gif") 10px 10px no-repeat;}
+.msg.done {background:url("../design/ico-done.gif") 10px 50% no-repeat;}
+.msg.error {background:url("../design/ico-delete.gif") 10px 25px no-repeat;}
+
+.msg ul li {padding-left:15px; background:url("../design/ul.gif") 0 4px no-repeat;}
+
+
+/* =============================================================================
+MESSAGES
+============================================================================= */
+
+.msg.warning {border:2px solid #F2DD8C; background-color:#FFF5CC;margin-bottom: 20px;}
+.msg.warning a {color:#df0000;} .msg.warning a:hover, .msg.warning a:active, .msg.warning a:focus {color:#303030;}
+.msg.info {border:2px solid #B8E2FB; background-color:#E8F6FF;margin-bottom: 20px;}
+.msg.done {border:2px solid #BBDF8D; background-color:#EAF7D9;margin-bottom: 20px;}
+.msg.error {border:2px solid #FFAEAE; background-color:#FEEBEB;margin-bottom: 20px;}
+
+div.succesSummary {
+    background:none repeat scroll 0 0 #CFF;
+    border:2px solid #090;
+    font-size:0.5em;
+    margin:0 0 20px;
+    padding:7px 7px 12px;
+}
+div.succesSummary ul {
+    margin:0;
+    padding:0 0 0 20px;
+}
+div.succesSummary ul li {
+    font-size: 14px;
+}
+
+
+
+.error {
+    background:#FFEEEE;
+    border:1px solid red;
+}
+
+/* PAGINADOR */
+
+.paginador{
+    text-decoration: none; 
+    border: #1C5DA5 1px solid;
+    background: #fff;
+    padding: 3px 5px 3px 5px;
+    color: #1C5DA5;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.paginador:hover{
+    text-decoration: none; 
+    border: #fff 1px solid;
+    background-color: #1C5DA5;
+    padding: 3px 5px 3px 5px;
+    color: #fff;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.pagina_actual{
+    text-decoration: none; 
+    border: #fff 1px solid;
+    background-color: #1C5DA5;
+    padding: 3px 5px 3px 5px;
+    color: #fff;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.paginador_boton{
+    text-decoration: none; 
+    border: #1C5DA5 1px solid;
+    background: #fff;
+    padding: 3px 20px 3px 20px;
+    color: #1C5DA5;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.paginador_boton:hover{
+    text-decoration: none; 
+    border: #fff 1px solid;
+    background-color: #1C5DA5;
+    padding: 3px 20px 3px 20px;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.barra_paginador{
+    margin-top: 5px;
+    text-align: left;
+    width: 700px;
+    float: left;
+
+
+}
+
+
+/* FIN PAGINADOR */
+
+
+

@@ -1,0 +1,314 @@
+/* =============================================================================
+
+        MAIN.CSS
+        version: 1.7
+        updated: 2009-03-14, 12:44 GMT+1
+
+============================================================================= */
+
+/* =============================================================================
+HTML - styles
+============================================================================= */
+
+body {font:0.8em/1.5 "arial", sans-serif; background:#FFF}
+h1, h2, h3, h4, h5, h6, address, blockquote, dl, fieldset, ol, p, table, ul {margin:15px 0;}
+#content h1 {font-size:120%;}
+#content h2 {font-size:160%;}
+#content h3 {font-size:100%;}
+#content h4 {font-size:120%;}
+#content h5, h6 {font-size:100%;}
+#content table {margin:0; border-collapse:collapse;}
+#content table.width100 {width:100%;}
+#content table th, #content table td {}
+#content table th {text-align:left; vertical-align:middle; font-weight:bold;}
+#content ul {margin:15px 0; list-style:none;}
+
+
+.btn{
+    text-decoration: none; 
+    border: #fff 1px solid;
+    background-color:#1C5DA5;
+    padding: 3px 20px 3px 20px;
+    color: #fff;
+    font-size: 11px;
+   
+}
+.btn:hover{
+    text-decoration: none; 
+    border: #1C5DA5 1px solid;
+    background: #fff;
+    padding: 3px 20px 3px 20px;
+
+    color: #1C5DA5;
+
+}
+
+
+a.link{
+    text-decoration: none; 
+    border: #1C5DA5 1px solid;
+    background: #fff;
+    padding: 3px 20px 3px 20px;
+    color: #1C5DA5;
+    font-size: 11px;
+
+
+
+}
+a.link:hover{
+    text-decoration: none; 
+    border: #fff 1px solid;
+    background-color:#1C5DA5;
+    padding: 3px 20px 3px 20px;
+    color: #fff;
+
+}
+
+a.link_menu{
+    text-decoration: none; 
+    border: #fff 1px solid;
+    background-color:#1C5DA5;
+    padding: 3px 20px 3px 20px;
+    color: #fff;
+    font-size: 11px;
+}
+a.link_menu:hover{
+
+    text-decoration: none; 
+    border: #1C5DA5 1px solid;
+    background: #fff;
+    padding: 3px 20px 3px 20px;
+    color: #1C5DA5;
+    font-size: 11px;
+}
+
+
+
+/* =============================================================================
+LAYOUT
+============================================================================= */
+
+#main {min-width:980px; width:expression(document.body.clientWidth < 980? "980px" : "auto" );}
+
+#menu {padding:6px 15px 6px 15px;}
+#menu ul {margin:0; padding:0; list-style-type:none;}
+#menu ul li {display:inline; margin:0; padding:0;}
+#menu ul li a {float:left; margin-right:5px; padding-left:5px;text-decoration:none; cursor:pointer;}
+#menu ul li a span {float:left; display:block; padding:7px 15px 9px 8px; }
+
+#menu ul li a:hover span, #menu ul li#menu-active a span {background:url("../design/menu-right.gif") 100% -35px no-repeat;}
+#menu ul li#menu-active a {font-weight:bold;}
+#menu ul.f-right a {float: right}
+#content {padding:10px 15px; overflow:hidden;}
+#footer {clear:both; padding:15px;font:85%/1.2 "tahoma",sans-serif;}
+#footer p {margin:0;}
+
+
+
+#content h1 {margin:0;padding: 2px 15px; background:url("../design/content-h1.gif") 0 0 repeat-x; letter-spacing:-1px;}
+
+
+.msg {padding:10px; padding-left:35px; font-size: 11px;}
+.msg.warning {background:url("../design/ico-warning.gif") 10px 10px no-repeat;}
+.msg.info {background:url("../design/ico-info.gif") 10px 10px no-repeat;}
+.msg.done {background:url("../design/ico-done.gif") 10px 50% no-repeat;}
+.msg.error {background:url("../design/ico-delete.gif") 10px 25px no-repeat;}
+
+.errorSummary {margin: 20px;padding:10px; padding-left:35px;background:url("../design/ico-delete.gif") 10px 25px no-repeat;background-color: #FEEBEB;border: 2px solid #FFAEAE;}
+
+/* =============================================================================
+FONT STYLES
+============================================================================= */
+
+.bigger {font-size:120%;}
+.smaller {font:85%/1.2 "tahoma",sans-serif;}
+
+/* This line can be deleted */
+.tit {padding:10px; background:#f5f5f5;} .tag {background:#ffa;}
+
+
+input.error{
+    border:1px solid  #C00  !important;
+    color: #C00  !important;	
+    background: #FEEBEB  !important;
+    font: 100%/1.5 "arial",sans-serif  !important;
+    padding: 4px  !important;
+}
+
+.input-text{
+    border:1px solid  #1C5DA5;   
+    font: 100%/1.5 "arial",sans-serif;
+    padding: 4px;
+    margin: 2px;
+
+}
+
+
+
+select.error{
+    border:1px solid  #C00;
+    color: #C00;
+    font-size:12px;
+    float: left;
+    background: #FEEBEB;
+}
+
+.errorMessage{
+    padding:0 0 0 0;
+    color:#900;
+    line-height: 19px;
+
+}
+
+#success{
+    margin-top: 10px;
+
+}
+
+.form{
+    width: 420px;float: left;margin-right: 10px
+
+}
+
+.list{
+    width: 430px;float: left;
+}
+
+.separador {
+    clear: both;
+    display: block;
+   
+}
+
+.buttons{
+    float:right;
+    margin: 30px;
+}
+
+.search{
+    background: #F1F1F1;
+    padding: 10px;
+    margin-top: 10px;
+}
+.row{
+    padding: 20px 0 0 20px;
+}
+
+table.detail-view .null {
+    color: blue !important;
+}
+
+table.tabledinamic{
+    width:100%;
+    border: 1px solid #1C5DA5;
+    margin-bottom: 20px !important;
+}
+
+table.tabledinamic th{
+
+    background: #1C5DA5;
+    color:#FFF;
+    font-size: 11px;
+    text-align: center !important;
+}
+
+table.tablesearch{
+    width:100%;
+    border: 1px solid #1C5DA5;
+}
+
+table.tablesorter{
+    width:100%;
+    border: 1px solid #1C5DA5;
+}
+
+table.tablesorter th{
+
+    background: #1C5DA5;
+    color:#FFF;
+    font-size: 11px;
+    text-align: center !important;
+}
+table.tablesorter td{text-align: center; border: 1px solid #1C5DA5 !important; height: 25px}
+
+
+.label{
+    font-weight:bold;
+    font-size: 11px;
+}
+
+.header h1{
+    color: #fff;
+}
+
+.container{
+    width:860px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.menu-ppal{
+    
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#iconsOptions a{
+    text-decoration:none ;
+    width: auto;
+    float:left;
+    text-align: center;
+    background:#FBFBFB;
+    padding: 30px;
+    margin:6px;
+    height: auto;
+    color:#014282;
+    border:1px solid  #CCC;
+    border-radius:10px; 
+    -moz-border-radius:10px; /* Firefox */ 
+    -webkit-border-radius:10px; /* Safari y Chrome */ 
+
+}
+#iconsOptions a:hover{
+    color:#E4433E;
+    border:1px solid  #E4433E;
+
+}
+#iconsOptionsSmall h5{  margin: 0px 0;}
+
+#iconsOptionsSmall a{
+    text-decoration:none ;
+    min-width: 80px;
+    font-size: 12px;
+    background:#FBFBFB;
+    float:left;
+    text-align: center;
+    padding:10px;
+    margin:2px;
+    height: auto;
+    color:#014282;
+    border:1px solid  #CCC;
+    border-radius:10px; 
+    -moz-border-radius:10px; /* Firefox */ 
+    -webkit-border-radius:10px; /* Safari y Chrome */ 
+
+}
+.btnactivo{
+    background: #9BCD69 !important;
+    color:#000 !important;
+    border:none !important;
+}
+
+#iconsOptionsSmall a:hover{
+    color:#E4433E;
+    border:1px solid  #E4433E;
+
+}
+#iconsOptionsSmall h5{  margin: 0px 0; }
+#iconsOptionsSmall img{
+    width: 32px;
+}
+
