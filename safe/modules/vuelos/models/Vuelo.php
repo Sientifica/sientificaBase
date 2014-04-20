@@ -17,8 +17,11 @@ class Vuelo extends SiModel {
      * 
      */
     static $has_many = array(
+
+      /*
         array('rel_preawbs', 'class_name' => 'PreAwb', 'foreign_key' => 'idvuelo'),
         array('rel_movs_entrada', 'class_name' => 'Movimientos', 'foreign_key' => 'idvuelo', "conditions" => "tipo='entrada'"),
+      */  
     );
 
     public function validateRules() {

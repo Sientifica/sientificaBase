@@ -3,8 +3,9 @@
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'db'=> array('connections'=> array(                            
-                                        'local' => 'mysql://root:49421702@localhost/sfc_carga',
- 					'production' => 'mysql://root:RootMYSQL00!@localhost/sfc_carga',
+
+                    'local' => 'mysql://root:49421702@localhost/sientifica',
+ 					'production' => 'mysql://root:RootMYSQL00!@localhost/sientifica',
                                       ),
         
                  'useConnection'=>'local',
@@ -12,8 +13,6 @@ return array(
                  ),
    'modules' => array(     
         'users',
-        'awbs',
-        'posiciones',
         'vuelos',
        
     ),
